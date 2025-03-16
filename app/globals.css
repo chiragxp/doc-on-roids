@@ -53,7 +53,7 @@
   }
 
   .shad-dialog {
-    @apply w-full max-w-[400px] rounded-xl border-none bg-doc bg-cover px-5 py-7 shadow-xl sm: min-w-[500px] !important;
+    @apply w-full max-w-[400px] rounded-xl border-none bg-doc bg-cover px-5 py-7 shadow-xl sm:min-w-[500px] !important;
   }
 
   .shad-dialog button {
@@ -117,7 +117,7 @@
   }
 
   .document-title {
-    @apply line-clamp-1 border-dark-400 text-base font-semibold leading-[24px] sm: pl-0 sm:text-xl;
+    @apply line-clamp-1 border-dark-400 text-base font-semibold leading-[24px] sm:pl-0 sm:text-xl;
   }
 
   .view-only-tag {
@@ -125,7 +125,7 @@
   }
 
   .collaborators-list {
-    @apply hidden items-center justify-end -space-x-3 overflow-hidden sm: flex;
+    @apply hidden items-center justify-end -space-x-3 overflow-hidden sm:flex;
   }
 
   .share-input {
@@ -159,7 +159,7 @@
 
   /* ======================== Home Page */
   .home-container {
-    @apply relative flex min-h-screen w-full flex-col items-center gap-5 sm: gap-10;
+    @apply relative flex min-h-screen w-full flex-col items-center gap-5 sm:gap-10;
   }
 
   .document-ul {
