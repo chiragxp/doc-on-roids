@@ -56,6 +56,6 @@ export const getDocumentUsers = async ({
 
     return parseStringify(users);
   } catch (error) {
-    console.log(`Error fetching document users: $(error)`);
+    console.log(`Error fetching document users: ${error}`);
   }
 };

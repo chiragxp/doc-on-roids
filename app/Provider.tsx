@@ -12,6 +12,7 @@ import { useUser } from "@clerk/nextjs";
 
 const Provider = ({ children }: { children: ReactNode }) => {
   const { user: clerkUser } = useUser();
+
   return (
     <LiveblocksProvider
       authEndpoint="/api/liveblocks-auth"
