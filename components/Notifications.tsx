@@ -20,7 +20,7 @@ import { ReactNode } from "react";
 
 const Notifications = () => {
   const { inboxNotifications } = useInboxNotifications();
-  const { count } = useUnreadInboxNotificationsCount();
+  const { count = 0 } = useUnreadInboxNotificationsCount() || {};
   const unreadNotifications = (inboxNotifications || []).filter(
     (notification) => !notification.readAt
   );
@@ -79,7 +79,7 @@ const Notifications = () => {
                         {...props}
                         title={props.inboxNotification.activities[0].data.title}
                         aside={
-                          <InboxNotification.Icon>
+                          <InboxNotification.Icon className="bg-transparent">
                             <Image
                               src={
                                 (props.inboxNotification.activities[0].data
