@@ -12,7 +12,7 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "Docs On Roids",
+  title: "DocOnRoids",
   description:
     "Your go-to collaborative document editor with advanced features",
 };
